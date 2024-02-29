@@ -1,0 +1,29 @@
+= KAAA Thesaurus
+
+As a SKOS vocabulary.
+
+This repository contains the https://staterecords.nsw.gov.au/recordkeeping/advice/records-classification/keyword-aaa#downloadable-formats[Keyword AAA Thesaurus] as a https://www.w3.org/TR/skos-reference/[SKOS Vocabulary] in the https://www.w3.org/RDF/[RDF] file:
+
+* `kaaa.ttl`
+
+It also contains the source material that the RDF file was derived from - the standard issuing of KAAA in ISO 2788 form - and Python code used for the conversion in `sources/`.
+
+== License & Copyright
+
+All license and copyright information for KAAA use is within the kaaa.ttl file itself.
+
+The Python script used to generate this SKOS version of KAAA is available for use under the https://opensource.org/license/BSD-3-clause[BSD 3-clause] license and copyright as follows:
+
+&copy; KurrawongAI, 2024
+
+== Contacts
+
+This conversion fo KAAA was done by:
+
+*Nicholas Car* +
+_Data Architect_ +
+https://kurrawong.ai[KurrawongAI] +
+nick@kurrawong.ai
+
+Please contact him for any issues/queries.
+
